@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Tweet Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">AI</div>
+
+    <h1>Tweet Generator</h1>
+    <p class="subtitle">Generate 10 human-like tweets based on any topic</p>
+
+    <div class="card">
+        <label>Topic or Context</label>
+        <div class="input-group">
+            <input
+                type="text"
+                id="topicInput"
+                placeholder="e.g., AI technology, morning motivation, startup life..."
+            />
+            <button id="generateBtn">Generate</button>
+        </div>
+    </div>
+
+    <div id="status" class="status">
+        Enter a topic and click Generate to create tweets
+    </div>
+
+    <div id="tweetsContainer" class="tweets"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
